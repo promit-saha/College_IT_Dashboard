@@ -107,8 +107,7 @@ public/
 ## A note on the live demo
 
 A static, no-backend version of the frontend (same UI, pre-generated
-sample data, no login) is deployed via GitHub Pages: **[link here]**.
-That version can't run the real Node backend at all (GitHub Pages only
+sample data, no login) is deployed via GitHub    Pages: **[here](https://promit-saha.github.io/College_IT_Dashboard/)**. That version can't run the real Node backend at all (GitHub Pages only
 serves static files), so it's a fixed snapshot rather than the live,
 self-refreshing version you get running this repo locally.
 
