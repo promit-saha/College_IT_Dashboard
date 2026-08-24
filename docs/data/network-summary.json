@@ -1,0 +1,189 @@
+{
+  "throughput": {
+    "harrisdale": {
+      "core": {
+        "label": "Core (core-sw-01)",
+        "operStatus": "up",
+        "speedGbps": 20,
+        "inMbps": 377,
+        "outMbps": 269.1
+      },
+      "firewall": {
+        "label": "Firewall (edge)",
+        "operStatus": "up",
+        "speedGbps": 20,
+        "inMbps": 205.3,
+        "outMbps": 128.3
+      }
+    },
+    "forrestdale": {
+      "core": {
+        "label": "Core (core-sw-02)",
+        "operStatus": "up",
+        "speedGbps": 2,
+        "inMbps": 91.4,
+        "outMbps": 69.8
+      },
+      "firewall": {
+        "label": "Firewall (edge)",
+        "operStatus": "up",
+        "speedGbps": 2,
+        "inMbps": 36.4,
+        "outMbps": 26.7
+      }
+    },
+    "history": [
+      {
+        "t": 1787559077565,
+        "hCoreIn": 377,
+        "hCoreOut": 269.1,
+        "hFwIn": 205.3,
+        "hFwOut": 128.3,
+        "fCoreIn": 91.4,
+        "fCoreOut": 69.8,
+        "fFwIn": 36.4,
+        "fFwOut": 26.7
+      }
+    ]
+  },
+  "sessions": {
+    "harrisdale": 12879,
+    "forrestdale": 6064,
+    "history": [
+      {
+        "t": 1787559077565,
+        "harrisdale": 12879,
+        "forrestdale": 6064
+      }
+    ]
+  },
+  "topVlans": {
+    "harrisdale": [
+      {
+        "label": "V20-STUDENT",
+        "portLabel": "V20-STUDENT",
+        "mbps": 171.5
+      },
+      {
+        "label": "V50-PRINT",
+        "portLabel": "V50-PRINT",
+        "mbps": 50.1
+      },
+      {
+        "label": "V40-IOT",
+        "portLabel": "V40-IOT",
+        "mbps": 32.3
+      },
+      {
+        "label": "V10-STAFF",
+        "portLabel": "V10-STAFF",
+        "mbps": 27.8
+      }
+    ],
+    "forrestdale": [
+      {
+        "label": "V20-STUDENT",
+        "portLabel": "V20-STUDENT",
+        "mbps": 139.4
+      },
+      {
+        "label": "V50-PRINT",
+        "portLabel": "V50-PRINT",
+        "mbps": 98.5
+      },
+      {
+        "label": "V70-CCTV",
+        "portLabel": "V70-CCTV",
+        "mbps": 16.5
+      },
+      {
+        "label": "V10-STAFF",
+        "portLabel": "V10-STAFF",
+        "mbps": 6.5
+      }
+    ]
+  },
+  "deviceHealth": {
+    "total": 51,
+    "down": 2,
+    "byType": {
+      "network": {
+        "up": 3,
+        "down": 0
+      },
+      "wireless": {
+        "up": 7,
+        "down": 0
+      },
+      "firewall": {
+        "up": 3,
+        "down": 2
+      },
+      "printer": {
+        "up": 3,
+        "down": 0
+      },
+      "server": {
+        "up": 6,
+        "down": 0
+      },
+      "storage": {
+        "up": 4,
+        "down": 0
+      },
+      "power": {
+        "up": 9,
+        "down": 0
+      },
+      "video": {
+        "up": 11,
+        "down": 0
+      },
+      "workstation": {
+        "up": 3,
+        "down": 0
+      }
+    }
+  },
+  "networkAlerts": [],
+  "outages": [
+    {
+      "t": 1787556677565,
+      "deviceId": 175,
+      "hostname": "sw-lib-02",
+      "type": "printer",
+      "event": "down"
+    },
+    {
+      "t": 1787551517565,
+      "deviceId": 177,
+      "hostname": "sw-gym-01",
+      "type": "printer",
+      "event": "down"
+    },
+    {
+      "t": 1787547317565,
+      "deviceId": 157,
+      "hostname": "ap-oval-2",
+      "type": "printer",
+      "event": "down"
+    },
+    {
+      "t": 1787544857565,
+      "deviceId": 130,
+      "hostname": "ap-block-c-4",
+      "type": "printer",
+      "event": "up"
+    },
+    {
+      "t": 1787539637565,
+      "deviceId": 114,
+      "hostname": "nvr-carpark",
+      "type": "wireless",
+      "event": "down"
+    }
+  ],
+  "lowToner": [],
+  "generatedAt": "2026-08-24T08:11:17.565Z",
+  "stale": false
+}

@@ -1,0 +1,20 @@
+# Example service monitor list, for the demo build.
+# Format: Name | URL
+# In a real deployment, this would list the school's actual web
+# applications. These are placeholder examples only, none of them are
+# real, live systems, and the Services tab's demo data doesn't actually
+# check any of them, it generates realistic status data instead (see
+# sources/demo-data.js), same as every other tab in demo mode.
+
+Student Portal | https://student-portal.example.edu
+Staff Portal | https://staff-portal.example.edu
+Library System | https://library-system.example.edu
+Learning Management System | https://lms.example.edu
+Timetabling | https://timetabling.example.edu
+Print Management | https://print.example.edu
+VOIP Phone System | https://voip.example.edu
+Enrolment System | https://enrolment.example.edu
+Payments Portal | https://payments.example.edu
+Wellbeing Platform | https://wellbeing.example.edu
+Sports Bookings | https://sports-bookings.example.edu
+Visitor Check-In | https://visitor-checkin.example.edu

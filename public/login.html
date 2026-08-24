@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>World's Greatest School — Dashboard Login</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0a0e14; --surface:#131924; --surface-2:#1a2130; --border:#232b3d;
+    --text:#e7ebf3; --text-dim:#7c879c; --text-faint:#4d5670;
+    --teal:#2fd6b8; --teal-dim:#123832;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html,body{height:100%;background:var(--bg);color:var(--text);font-family:'Space Grotesk',sans-serif;}
+  body{display:flex;align-items:center;justify-content:center;}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:36px 40px;width:320px;text-align:center;}
+  .brand-mark{width:12px;height:12px;border-radius:50%;background:var(--teal);box-shadow:0 0 0 5px var(--teal-dim);margin:0 auto 16px;}
+  h1{font-size:16px;font-weight:700;margin-bottom:4px;}
+  .sub{font-size:11px;color:var(--text-dim);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:24px;}
+  input{width:100%;padding:10px 12px;background:var(--surface-2);border:1px solid var(--border);border-radius:6px;color:var(--text);font-family:'IBM Plex Mono',monospace;font-size:13px;margin-bottom:12px;}
+  input:focus{outline:none;border-color:var(--teal);}
+  button{width:100%;padding:10px;background:var(--teal);color:#0a0e14;border:none;border-radius:6px;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:13px;cursor:pointer;}
+  button:hover{opacity:0.9;}
+  .error{color:#ffb3b5;font-size:12px;margin-top:10px;min-height:14px;}
+</style>
+</head>
+<body>
+  <form class="card" id="loginForm">
+    <div class="brand-mark"></div>
+    <h1>World's Greatest School</h1>
+    <div class="sub">ICT &amp; Cyber Security Dashboard</div>
+    <input type="password" id="password" placeholder="Password" autofocus autocomplete="current-password">
+    <button type="submit">Sign in</button>
+    <div class="error" id="loginError"></div>
+  </form>
+  <script>
+    document.getElementById('loginForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const password = document.getElementById('password').value;
+      const errEl = document.getElementById('loginError');
+      errEl.textContent = '';
+      try {
+        const res = await fetch('/api/login', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ password })
+        });
+        if (res.ok) {
+          window.location.href = '/';
+        } else {
+          errEl.textContent = 'Incorrect password.';
+        }
+      } catch (err) {
+        errEl.textContent = 'Could not reach the server.';
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+node_modules
+npm-debug.log*
+.env
+sessions.json
+.git
+.gitignore
+*.log
+.DS_Store

@@ -1,0 +1,95 @@
+{
+  "services": [
+    {
+      "name": "Student Portal",
+      "url": "https://student-portal.example.edu",
+      "status": "up",
+      "httpStatus": 200,
+      "ms": 678
+    },
+    {
+      "name": "Staff Portal",
+      "url": "https://staff-portal.example.edu",
+      "status": "up",
+      "httpStatus": 200,
+      "ms": 565
+    },
+    {
+      "name": "Library System",
+      "url": "https://library-system.example.edu",
+      "status": "up",
+      "httpStatus": 200,
+      "ms": 415
+    },
+    {
+      "name": "Learning Management System",
+      "url": "https://learning-management-system.example.edu",
+      "status": "up",
+      "httpStatus": 200,
+      "ms": 595
+    },
+    {
+      "name": "Timetabling",
+      "url": "https://timetabling.example.edu",
+      "status": "down",
+      "httpStatus": null,
+      "ms": 9581,
+      "error": "fetch failed: connect ETIMEDOUT"
+    },
+    {
+      "name": "Print Management",
+      "url": "https://print-management.example.edu",
+      "status": "up",
+      "httpStatus": 200,
+      "ms": 495
+    },
+    {
+      "name": "VOIP Phone System",
+      "url": "https://voip-phone-system.example.edu",
+      "status": "up",
+      "httpStatus": 200,
+      "ms": 669
+    },
+    {
+      "name": "Enrolment System",
+      "url": "https://enrolment-system.example.edu",
+      "status": "up",
+      "httpStatus": 200,
+      "ms": 550
+    },
+    {
+      "name": "Payments Portal",
+      "url": "https://payments-portal.example.edu",
+      "status": "down",
+      "httpStatus": null,
+      "ms": 9712,
+      "error": "fetch failed: connect ETIMEDOUT"
+    },
+    {
+      "name": "Wellbeing Platform",
+      "url": "https://wellbeing-platform.example.edu",
+      "status": "up",
+      "httpStatus": 200,
+      "ms": 756
+    },
+    {
+      "name": "Sports Bookings",
+      "url": "https://sports-bookings.example.edu",
+      "status": "up",
+      "httpStatus": 200,
+      "ms": 668
+    },
+    {
+      "name": "Visitor Check-In",
+      "url": "https://visitor-check-in.example.edu",
+      "status": "up",
+      "httpStatus": 200,
+      "ms": 482
+    }
+  ],
+  "down": 2,
+  "degraded": 0,
+  "total": 12,
+  "generatedAt": "2026-08-24T08:11:17.567Z",
+  "stale": false
+}

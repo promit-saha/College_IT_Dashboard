@@ -1,0 +1,51 @@
+{
+  "breaches": [
+    {
+      "time": 1787551399555,
+      "score": 71,
+      "priority": 2,
+      "priorityBand": "medium",
+      "kind": "Compliance",
+      "label": "Possible DNS Over HTTPS/TLS",
+      "device": "labpc-14"
+    },
+    {
+      "time": 1787548941940,
+      "score": 92,
+      "priority": 3,
+      "priorityBand": "high",
+      "kind": "Compromise",
+      "label": "Slow Beaconing Activity To External Rare",
+      "device": "front-office-01"
+    },
+    {
+      "time": 1787541032273,
+      "score": 89,
+      "priority": 3,
+      "priorityBand": "high",
+      "kind": "SaaS",
+      "label": "Unusual ASN for SaaS Credential",
+      "device": "front-office-01"
+    },
+    {
+      "time": 1787539127202,
+      "score": 70,
+      "priority": 2,
+      "priorityBand": "medium",
+      "kind": "SaaS",
+      "label": "Anonymous Sharing Link Created",
+      "device": "jstudent42"
+    },
+    {
+      "time": 1787497179231,
+      "score": 75,
+      "priority": 2,
+      "priorityBand": "medium",
+      "kind": "SaaS",
+      "label": "Unusual ASN for SaaS Credential",
+      "device": "front-office-01"
+    }
+  ],
+  "generatedAt": "2026-08-24T08:11:17.566Z",
+  "stale": false
+}

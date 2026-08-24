@@ -1,0 +1,273 @@
+{
+  "total": 277,
+  "counts": {
+    "new": 7,
+    "pending": 5,
+    "inProgress": 15,
+    "solved": 243,
+    "unassigned": 3,
+    "overdue": 1
+  },
+  "priority": {
+    "high": 4,
+    "medium": 8,
+    "low": 23
+  },
+  "categories": [
+    {
+      "name": "Network",
+      "count": 28
+    },
+    {
+      "name": "Hardware",
+      "count": 26
+    },
+    {
+      "name": "Accounts & Access",
+      "count": 24
+    },
+    {
+      "name": "Software",
+      "count": 19
+    },
+    {
+      "name": "Classroom AV",
+      "count": 13
+    },
+    {
+      "name": "Printing",
+      "count": 10
+    }
+  ],
+  "topTechnicians": [
+    {
+      "name": "Casey Kim",
+      "role": "Infrastructure Engineer",
+      "count": 12
+    },
+    {
+      "name": "Sam Rivera",
+      "role": "IT Support Officer",
+      "count": 11
+    },
+    {
+      "name": "Jordan Patel",
+      "role": "Network Technician",
+      "count": 9
+    },
+    {
+      "name": "Morgan Lee",
+      "role": "Help Desk Technician",
+      "count": 6
+    },
+    {
+      "name": "Alex Chen",
+      "role": "Systems Administrator",
+      "count": 2
+    }
+  ],
+  "ticketList": [
+    {
+      "id": 12245,
+      "user": "student126@worldsgreatestschool.edu",
+      "agent": "Morgan Lee",
+      "summary": "Projector no signal",
+      "category": "Software",
+      "priority": "High"
+    },
+    {
+      "id": 12509,
+      "user": "student557@worldsgreatestschool.edu",
+      "agent": "Sam Rivera",
+      "summary": "Wifi drops in room 12",
+      "category": "Printing",
+      "priority": "High"
+    },
+    {
+      "id": 13500,
+      "user": "student109@worldsgreatestschool.edu",
+      "agent": "Sam Rivera",
+      "summary": "Projector no signal",
+      "category": "Hardware",
+      "priority": "Medium"
+    },
+    {
+      "id": 11754,
+      "user": "student194@worldsgreatestschool.edu",
+      "agent": "Jordan Patel",
+      "summary": "Wifi drops in room 12",
+      "category": "Classroom AV",
+      "priority": "Medium"
+    },
+    {
+      "id": 11170,
+      "user": "student871@worldsgreatestschool.edu",
+      "agent": "Jordan Patel",
+      "summary": "Laptop will not turn on",
+      "category": "Classroom AV",
+      "priority": "Medium"
+    },
+    {
+      "id": 10246,
+      "user": "student349@worldsgreatestschool.edu",
+      "agent": "Casey Kim",
+      "summary": "Slow performance on lab machines",
+      "category": "Accounts & Access",
+      "priority": "Medium"
+    },
+    {
+      "id": 13090,
+      "user": "student94@worldsgreatestschool.edu",
+      "agent": "Morgan Lee",
+      "summary": "Slow performance on lab machines",
+      "category": "Hardware",
+      "priority": "Medium"
+    },
+    {
+      "id": 13081,
+      "user": "student455@worldsgreatestschool.edu",
+      "agent": "Alex Chen",
+      "summary": "Wifi drops in room 12",
+      "category": "Classroom AV",
+      "priority": "Medium"
+    },
+    {
+      "id": 11679,
+      "user": "student621@worldsgreatestschool.edu",
+      "agent": "Sam Rivera",
+      "summary": "Slow performance on lab machines",
+      "category": "Software",
+      "priority": "Low"
+    },
+    {
+      "id": 13824,
+      "user": "student16@worldsgreatestschool.edu",
+      "agent": "Sam Rivera",
+      "summary": "Slow performance on lab machines",
+      "category": "Hardware",
+      "priority": "Low"
+    },
+    {
+      "id": 13758,
+      "user": "student466@worldsgreatestschool.edu",
+      "agent": "Morgan Lee",
+      "summary": "Wifi drops in room 12",
+      "category": "Accounts & Access",
+      "priority": "Low"
+    },
+    {
+      "id": 11117,
+      "user": "student679@worldsgreatestschool.edu",
+      "agent": "Morgan Lee",
+      "summary": "Projector no signal",
+      "category": "Software",
+      "priority": "Low"
+    },
+    {
+      "id": 12623,
+      "user": "student900@worldsgreatestschool.edu",
+      "agent": "Alex Chen",
+      "summary": "Wifi drops in room 12",
+      "category": "Printing",
+      "priority": "Low"
+    },
+    {
+      "id": 10445,
+      "user": "student318@worldsgreatestschool.edu",
+      "agent": "Casey Kim",
+      "summary": "Projector no signal",
+      "category": "Accounts & Access",
+      "priority": "Low"
+    },
+    {
+      "id": 13113,
+      "user": "student592@worldsgreatestschool.edu",
+      "agent": "Alex Chen",
+      "summary": "Slow performance on lab machines",
+      "category": "Classroom AV",
+      "priority": "Low"
+    },
+    {
+      "id": 12885,
+      "user": "student183@worldsgreatestschool.edu",
+      "agent": "Sam Rivera",
+      "summary": "Slow performance on lab machines",
+      "category": "Hardware",
+      "priority": "Low"
+    },
+    {
+      "id": 10155,
+      "user": "student664@worldsgreatestschool.edu",
+      "agent": "Alex Chen",
+      "summary": "VPN connection failing",
+      "category": "Classroom AV",
+      "priority": "Low"
+    },
+    {
+      "id": 10023,
+      "user": "student112@worldsgreatestschool.edu",
+      "agent": "Casey Kim",
+      "summary": "VPN connection failing",
+      "category": "Hardware",
+      "priority": "Low"
+    },
+    {
+      "id": 12735,
+      "user": "student815@worldsgreatestschool.edu",
+      "agent": "Morgan Lee",
+      "summary": "New starter equipment setup",
+      "category": "Accounts & Access",
+      "priority": "Low"
+    },
+    {
+      "id": 13383,
+      "user": "student401@worldsgreatestschool.edu",
+      "agent": "Alex Chen",
+      "summary": "Cannot access shared drive",
+      "category": "Accounts & Access",
+      "priority": "Low"
+    },
+    {
+      "id": 13079,
+      "user": "student276@worldsgreatestschool.edu",
+      "agent": "Jordan Patel",
+      "summary": "Printer offline in staff room",
+      "category": "Printing",
+      "priority": "Low"
+    },
+    {
+      "id": 10690,
+      "user": "student243@worldsgreatestschool.edu",
+      "agent": "Jordan Patel",
+      "summary": "Laptop will not turn on",
+      "category": "Printing",
+      "priority": "Low"
+    },
+    {
+      "id": 11848,
+      "user": "student553@worldsgreatestschool.edu",
+      "agent": "Jordan Patel",
+      "summary": "Smartboard unresponsive",
+      "category": "Printing",
+      "priority": "Low"
+    },
+    {
+      "id": 10446,
+      "user": "student357@worldsgreatestschool.edu",
+      "agent": "Jordan Patel",
+      "summary": "Password reset request",
+      "category": "Hardware",
+      "priority": "Low"
+    },
+    {
+      "id": 10540,
+      "user": "student192@worldsgreatestschool.edu",
+      "agent": "Alex Chen",
+      "summary": "Printer offline in staff room",
+      "category": "Accounts & Access",
+      "priority": "Low"
+    }
+  ],
+  "generatedAt": "2026-08-24T08:11:17.565Z",
+  "stale": false
+}

@@ -1,0 +1,12 @@
+services:
+  dashboard:
+    build: .
+    ports:
+      - "4000:4000"
+    env_file:
+      - .env
+    volumes:
+      - ./sessions.json:/app/sessions.json
+      - ./services.txt:/app/services.txt
+      - ./outage-log.json:/app/outage-log.json
+    restart: unless-stopped

@@ -1,0 +1,214 @@
+{
+  "sourceTable": [
+    {
+      "host": "device-267",
+      "srcip": "10.20.0.167",
+      "sessions": 371,
+      "bytes": 689943906
+    },
+    {
+      "host": "device-914",
+      "srcip": "10.20.1.217",
+      "sessions": 274,
+      "bytes": 819887048
+    },
+    {
+      "host": "device-717",
+      "srcip": "10.20.2.209",
+      "sessions": 40,
+      "bytes": 165110910
+    },
+    {
+      "host": "device-156",
+      "srcip": "10.20.1.84",
+      "sessions": 64,
+      "bytes": 586425434
+    }
+  ],
+  "urlCategories": [
+    {
+      "name": "Search Engines",
+      "percent": 27
+    },
+    {
+      "name": "Streaming Media",
+      "percent": 27
+    },
+    {
+      "name": "Social Networking",
+      "percent": 14
+    },
+    {
+      "name": "Education",
+      "percent": 9
+    },
+    {
+      "name": "News",
+      "percent": 16
+    },
+    {
+      "name": "Cloud Storage",
+      "percent": 5
+    },
+    {
+      "name": "Gaming",
+      "percent": 29
+    }
+  ],
+  "blockedCategories": [
+    {
+      "name": "Proxy Avoidance",
+      "sessions": 52,
+      "hits": 52
+    },
+    {
+      "name": "Phishing",
+      "sessions": 29,
+      "hits": 29
+    },
+    {
+      "name": "Gambling",
+      "sessions": 27,
+      "hits": 27
+    },
+    {
+      "name": "Adult Content",
+      "sessions": 15,
+      "hits": 15
+    },
+    {
+      "name": "Malware",
+      "sessions": 7,
+      "hits": 7
+    }
+  ],
+  "alerts": [
+    {
+      "message": "Botnet C&C traffic blocked",
+      "severity": "low",
+      "timestamp": 1787531605218,
+      "devname": "edge-fw-01",
+      "epname": "device-386",
+      "epip": "10.20.1.244",
+      "dstepip": "141.196.54.174",
+      "rule": "Suspicious file download blocked"
+    },
+    {
+      "message": "Suspicious file download blocked",
+      "severity": "low",
+      "timestamp": 1787533818628,
+      "devname": "edge-fw-02",
+      "epname": "device-279",
+      "epip": "10.20.5.199",
+      "dstepip": "97.120.150.169",
+      "rule": "Insecure SSL Connection blocked"
+    }
+  ],
+  "threatMap": {
+    "events": [
+      {
+        "dateLabel": "2026-08-24 04:07:53",
+        "category": "Malware",
+        "srcip": "10.20.2.105",
+        "dstip": "177.11.117.68",
+        "country": "Germany",
+        "countryCode": null,
+        "lat": 53.4,
+        "lon": 8.3
+      },
+      {
+        "dateLabel": "2026-08-23 12:04:39",
+        "category": "Proxy Avoidance",
+        "srcip": "10.20.0.92",
+        "dstip": "127.230.178.194",
+        "country": "Netherlands",
+        "countryCode": null,
+        "lat": 53.3,
+        "lon": 7.7
+      },
+      {
+        "dateLabel": "2026-08-23 16:27:04",
+        "category": "Adult Content",
+        "srcip": "10.20.3.51",
+        "dstip": "170.191.161.120",
+        "country": "Netherlands",
+        "countryCode": null,
+        "lat": 54,
+        "lon": 4.5
+      },
+      {
+        "dateLabel": "2026-08-24 00:07:26",
+        "category": "Phishing",
+        "srcip": "10.20.4.130",
+        "dstip": "81.108.161.177",
+        "country": "Germany",
+        "countryCode": null,
+        "lat": 50.3,
+        "lon": 9.7
+      },
+      {
+        "dateLabel": "2026-08-23 10:23:19",
+        "category": "Adult Content",
+        "srcip": "10.20.0.193",
+        "dstip": "188.149.38.182",
+        "country": "China",
+        "countryCode": null,
+        "lat": 35.3,
+        "lon": 102.6
+      },
+      {
+        "dateLabel": "2026-08-23 09:24:11",
+        "category": "Adult Content",
+        "srcip": "10.20.5.227",
+        "dstip": "64.200.245.142",
+        "country": "United States",
+        "countryCode": null,
+        "lat": 36.3,
+        "lon": -99
+      },
+      {
+        "dateLabel": "2026-08-24 01:18:37",
+        "category": "Malware",
+        "srcip": "10.20.0.82",
+        "dstip": "166.54.179.67",
+        "country": "China",
+        "countryCode": null,
+        "lat": 35.1,
+        "lon": 103.5
+      }
+    ],
+    "arcs": [
+      {
+        "country": "Germany",
+        "lat": 53.4,
+        "lon": 8.3,
+        "count": 2
+      },
+      {
+        "country": "Netherlands",
+        "lat": 53.3,
+        "lon": 7.7,
+        "count": 2
+      },
+      {
+        "country": "China",
+        "lat": 35.3,
+        "lon": 102.6,
+        "count": 2
+      },
+      {
+        "country": "United States",
+        "lat": 36.3,
+        "lon": -99,
+        "count": 1
+      }
+    ],
+    "source": {
+      "lat": -31.95,
+      "lon": 115.86,
+      "label": "World's Greatest School"
+    }
+  },
+  "generatedAt": "2026-08-24T08:11:17.566Z",
+  "stale": false
+}
