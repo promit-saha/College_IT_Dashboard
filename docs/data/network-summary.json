@@ -34,6 +34,325 @@
     },
     "history": [
       {
+        "t": 1787550377565,
+        "hCoreIn": 357.1,
+        "hCoreOut": 240.9,
+        "hFwIn": 214.6,
+        "hFwOut": 111.8,
+        "fCoreIn": 92.4,
+        "fCoreOut": 67.0,
+        "fFwIn": 31.6,
+        "fFwOut": 26.8
+      },
+      {
+        "t": 1787550677565,
+        "hCoreIn": 324.7,
+        "hCoreOut": 263.7,
+        "hFwIn": 178.8,
+        "hFwOut": 112.5,
+        "fCoreIn": 89.3,
+        "fCoreOut": 76.6,
+        "fFwIn": 32.3,
+        "fFwOut": 24.5
+      },
+      {
+        "t": 1787550977565,
+        "hCoreIn": 391.4,
+        "hCoreOut": 305.2,
+        "hFwIn": 210.0,
+        "hFwOut": 124.3,
+        "fCoreIn": 104.5,
+        "fCoreOut": 60.3,
+        "fFwIn": 40.3,
+        "fFwOut": 25.0
+      },
+      {
+        "t": 1787551277565,
+        "hCoreIn": 336.8,
+        "hCoreOut": 238.2,
+        "hFwIn": 193.5,
+        "hFwOut": 140.5,
+        "fCoreIn": 82.6,
+        "fCoreOut": 71.5,
+        "fFwIn": 37.9,
+        "fFwOut": 25.7
+      },
+      {
+        "t": 1787551577565,
+        "hCoreIn": 382.4,
+        "hCoreOut": 233.8,
+        "hFwIn": 178.2,
+        "hFwOut": 117.0,
+        "fCoreIn": 96.3,
+        "fCoreOut": 68.3,
+        "fFwIn": 34.4,
+        "fFwOut": 27.4
+      },
+      {
+        "t": 1787551877565,
+        "hCoreIn": 371.7,
+        "hCoreOut": 252.9,
+        "hFwIn": 223.4,
+        "hFwOut": 136.0,
+        "fCoreIn": 84.4,
+        "fCoreOut": 71.4,
+        "fFwIn": 36.7,
+        "fFwOut": 29.7
+      },
+      {
+        "t": 1787552177565,
+        "hCoreIn": 403.0,
+        "hCoreOut": 252.0,
+        "hFwIn": 234.9,
+        "hFwOut": 113.6,
+        "fCoreIn": 89.2,
+        "fCoreOut": 75.2,
+        "fFwIn": 32.6,
+        "fFwOut": 26.6
+      },
+      {
+        "t": 1787552477565,
+        "hCoreIn": 324.9,
+        "hCoreOut": 282.7,
+        "hFwIn": 221.6,
+        "hFwOut": 131.1,
+        "fCoreIn": 101.7,
+        "fCoreOut": 65.9,
+        "fFwIn": 38.5,
+        "fFwOut": 27.5
+      },
+      {
+        "t": 1787552777565,
+        "hCoreIn": 386.0,
+        "hCoreOut": 265.6,
+        "hFwIn": 226.2,
+        "hFwOut": 145.4,
+        "fCoreIn": 90.7,
+        "fCoreOut": 73.2,
+        "fFwIn": 31.6,
+        "fFwOut": 28.3
+      },
+      {
+        "t": 1787553077565,
+        "hCoreIn": 393.6,
+        "hCoreOut": 308.9,
+        "hFwIn": 225.1,
+        "hFwOut": 120.0,
+        "fCoreIn": 88.3,
+        "fCoreOut": 73.3,
+        "fFwIn": 31.2,
+        "fFwOut": 26.4
+      },
+      {
+        "t": 1787553377565,
+        "hCoreIn": 339.5,
+        "hCoreOut": 238.2,
+        "hFwIn": 178.1,
+        "hFwOut": 138.6,
+        "fCoreIn": 81.2,
+        "fCoreOut": 64.5,
+        "fFwIn": 35.2,
+        "fFwOut": 29.7
+      },
+      {
+        "t": 1787553677565,
+        "hCoreIn": 329.6,
+        "hCoreOut": 265.0,
+        "hFwIn": 208.3,
+        "hFwOut": 143.1,
+        "fCoreIn": 100.2,
+        "fCoreOut": 77.4,
+        "fFwIn": 34.0,
+        "fFwOut": 26.0
+      },
+      {
+        "t": 1787553977565,
+        "hCoreIn": 361.0,
+        "hCoreOut": 300.1,
+        "hFwIn": 233.5,
+        "hFwOut": 114.9,
+        "fCoreIn": 82.5,
+        "fCoreOut": 64.2,
+        "fFwIn": 33.5,
+        "fFwOut": 26.6
+      },
+      {
+        "t": 1787554277565,
+        "hCoreIn": 387.1,
+        "hCoreOut": 249.9,
+        "hFwIn": 174.8,
+        "hFwOut": 125.2,
+        "fCoreIn": 87.8,
+        "fCoreOut": 71.2,
+        "fFwIn": 41.3,
+        "fFwOut": 28.2
+      },
+      {
+        "t": 1787554577565,
+        "hCoreIn": 378.8,
+        "hCoreOut": 278.6,
+        "hFwIn": 216.2,
+        "hFwOut": 111.1,
+        "fCoreIn": 102.4,
+        "fCoreOut": 75.7,
+        "fFwIn": 40.5,
+        "fFwOut": 29.1
+      },
+      {
+        "t": 1787554877565,
+        "hCoreIn": 364.8,
+        "hCoreOut": 260.9,
+        "hFwIn": 180.9,
+        "hFwOut": 133.5,
+        "fCoreIn": 79.4,
+        "fCoreOut": 60.7,
+        "fFwIn": 33.2,
+        "fFwOut": 24.0
+      },
+      {
+        "t": 1787555177565,
+        "hCoreIn": 358.9,
+        "hCoreOut": 233.0,
+        "hFwIn": 174.5,
+        "hFwOut": 114.9,
+        "fCoreIn": 80.5,
+        "fCoreOut": 66.9,
+        "fFwIn": 31.2,
+        "fFwOut": 29.7
+      },
+      {
+        "t": 1787555477565,
+        "hCoreIn": 389.9,
+        "hCoreOut": 240.7,
+        "hFwIn": 190.0,
+        "hFwOut": 122.4,
+        "fCoreIn": 87.7,
+        "fCoreOut": 61.9,
+        "fFwIn": 40.2,
+        "fFwOut": 30.6
+      },
+      {
+        "t": 1787555777565,
+        "hCoreIn": 373.2,
+        "hCoreOut": 267.8,
+        "hFwIn": 179.8,
+        "hFwOut": 113.0,
+        "fCoreIn": 87.1,
+        "fCoreOut": 64.9,
+        "fFwIn": 40.0,
+        "fFwOut": 24.0
+      },
+      {
+        "t": 1787556077565,
+        "hCoreIn": 323.1,
+        "hCoreOut": 305.5,
+        "hFwIn": 207.0,
+        "hFwOut": 114.7,
+        "fCoreIn": 92.6,
+        "fCoreOut": 59.9,
+        "fFwIn": 36.7,
+        "fFwOut": 30.5
+      },
+      {
+        "t": 1787556377565,
+        "hCoreIn": 418.1,
+        "hCoreOut": 284.9,
+        "hFwIn": 190.6,
+        "hFwOut": 123.2,
+        "fCoreIn": 82.3,
+        "fCoreOut": 75.5,
+        "fFwIn": 36.8,
+        "fFwOut": 28.9
+      },
+      {
+        "t": 1787556677565,
+        "hCoreIn": 357.7,
+        "hCoreOut": 246.7,
+        "hFwIn": 224.5,
+        "hFwOut": 147.0,
+        "fCoreIn": 101.1,
+        "fCoreOut": 76.2,
+        "fFwIn": 39.9,
+        "fFwOut": 28.6
+      },
+      {
+        "t": 1787556977565,
+        "hCoreIn": 346.1,
+        "hCoreOut": 270.5,
+        "hFwIn": 196.4,
+        "hFwOut": 110.2,
+        "fCoreIn": 78.5,
+        "fCoreOut": 65.2,
+        "fFwIn": 33.8,
+        "fFwOut": 28.2
+      },
+      {
+        "t": 1787557277565,
+        "hCoreIn": 428.6,
+        "hCoreOut": 264.8,
+        "hFwIn": 232.2,
+        "hFwOut": 147.1,
+        "fCoreIn": 103.9,
+        "fCoreOut": 67.0,
+        "fFwIn": 33.3,
+        "fFwOut": 24.5
+      },
+      {
+        "t": 1787557577565,
+        "hCoreIn": 342.7,
+        "hCoreOut": 245.2,
+        "hFwIn": 212.9,
+        "hFwOut": 143.7,
+        "fCoreIn": 100.7,
+        "fCoreOut": 69.4,
+        "fFwIn": 38.1,
+        "fFwOut": 29.1
+      },
+      {
+        "t": 1787557877565,
+        "hCoreIn": 330.0,
+        "hCoreOut": 282.1,
+        "hFwIn": 230.5,
+        "hFwOut": 139.2,
+        "fCoreIn": 98.3,
+        "fCoreOut": 69.3,
+        "fFwIn": 32.9,
+        "fFwOut": 29.0
+      },
+      {
+        "t": 1787558177565,
+        "hCoreIn": 358.1,
+        "hCoreOut": 293.4,
+        "hFwIn": 234.3,
+        "hFwOut": 124.3,
+        "fCoreIn": 88.7,
+        "fCoreOut": 79.2,
+        "fFwIn": 38.9,
+        "fFwOut": 24.1
+      },
+      {
+        "t": 1787558477565,
+        "hCoreIn": 334.8,
+        "hCoreOut": 240.9,
+        "hFwIn": 230.2,
+        "hFwOut": 140.1,
+        "fCoreIn": 81.7,
+        "fCoreOut": 76.6,
+        "fFwIn": 41.6,
+        "fFwOut": 28.0
+      },
+      {
+        "t": 1787558777565,
+        "hCoreIn": 360.1,
+        "hCoreOut": 273.0,
+        "hFwIn": 182.6,
+        "hFwOut": 109.6,
+        "fCoreIn": 104.3,
+        "fCoreOut": 72.9,
+        "fFwIn": 36.7,
+        "fFwOut": 30.2
+      },
+      {
         "t": 1787559077565,
         "hCoreIn": 377,
         "hCoreOut": 269.1,
@@ -50,6 +369,151 @@
     "harrisdale": 12879,
     "forrestdale": 6064,
     "history": [
+      {
+        "t": 1787550377565,
+        "harrisdale": 12653,
+        "forrestdale": 6571
+      },
+      {
+        "t": 1787550677565,
+        "harrisdale": 13307,
+        "forrestdale": 5725
+      },
+      {
+        "t": 1787550977565,
+        "harrisdale": 11840,
+        "forrestdale": 6181
+      },
+      {
+        "t": 1787551277565,
+        "harrisdale": 13467,
+        "forrestdale": 6651
+      },
+      {
+        "t": 1787551577565,
+        "harrisdale": 13707,
+        "forrestdale": 6318
+      },
+      {
+        "t": 1787551877565,
+        "harrisdale": 13645,
+        "forrestdale": 5724
+      },
+      {
+        "t": 1787552177565,
+        "harrisdale": 13769,
+        "forrestdale": 5767
+      },
+      {
+        "t": 1787552477565,
+        "harrisdale": 13735,
+        "forrestdale": 6502
+      },
+      {
+        "t": 1787552777565,
+        "harrisdale": 11667,
+        "forrestdale": 6358
+      },
+      {
+        "t": 1787553077565,
+        "harrisdale": 12341,
+        "forrestdale": 5465
+      },
+      {
+        "t": 1787553377565,
+        "harrisdale": 12204,
+        "forrestdale": 5809
+      },
+      {
+        "t": 1787553677565,
+        "harrisdale": 12170,
+        "forrestdale": 6426
+      },
+      {
+        "t": 1787553977565,
+        "harrisdale": 14126,
+        "forrestdale": 5703
+      },
+      {
+        "t": 1787554277565,
+        "harrisdale": 13870,
+        "forrestdale": 5583
+      },
+      {
+        "t": 1787554577565,
+        "harrisdale": 12926,
+        "forrestdale": 6518
+      },
+      {
+        "t": 1787554877565,
+        "harrisdale": 13764,
+        "forrestdale": 6594
+      },
+      {
+        "t": 1787555177565,
+        "harrisdale": 13567,
+        "forrestdale": 5674
+      },
+      {
+        "t": 1787555477565,
+        "harrisdale": 13885,
+        "forrestdale": 5573
+      },
+      {
+        "t": 1787555777565,
+        "harrisdale": 12608,
+        "forrestdale": 5848
+      },
+      {
+        "t": 1787556077565,
+        "harrisdale": 12725,
+        "forrestdale": 5543
+      },
+      {
+        "t": 1787556377565,
+        "harrisdale": 11991,
+        "forrestdale": 6496
+      },
+      {
+        "t": 1787556677565,
+        "harrisdale": 13443,
+        "forrestdale": 6607
+      },
+      {
+        "t": 1787556977565,
+        "harrisdale": 11705,
+        "forrestdale": 5586
+      },
+      {
+        "t": 1787557277565,
+        "harrisdale": 13406,
+        "forrestdale": 6123
+      },
+      {
+        "t": 1787557577565,
+        "harrisdale": 14099,
+        "forrestdale": 6492
+      },
+      {
+        "t": 1787557877565,
+        "harrisdale": 14073,
+        "forrestdale": 6505
+      },
+      {
+        "t": 1787558177565,
+        "harrisdale": 12407,
+        "forrestdale": 6024
+      },
+      {
+        "t": 1787558477565,
+        "harrisdale": 13443,
+        "forrestdale": 6497
+      },
+      {
+        "t": 1787558777565,
+        "harrisdale": 13775,
+        "forrestdale": 6436
+      },
       {
         "t": 1787559077565,
         "harrisdale": 12879,
